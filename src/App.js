@@ -1,9 +1,15 @@
 import MovieList from "./MovieList";
+import Nav from "./Nav";
+import "./styles.css";
+import { MovieProvider } from "./MovieContext";
 
 export default function App() {
   return (
-    <div>
-      <MovieList />
-    </div>
+    <MovieProvider>
+      <div>
+        <Nav />
+        <MovieList />
+      </div>
+    </MovieProvider>
   );
 }
