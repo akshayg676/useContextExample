@@ -7,7 +7,7 @@ export const MovieProvider = (props) => {
     {
       name: "HarryPotter",
       price: "$10",
-      id: 12345,
+      id: 1235,
     },
     {
       name: "Fast&Furious",
