@@ -17,7 +17,7 @@ export const MovieProvider = (props) => {
     {
       name: "WWE",
       price: "$50",
-      id: 98567,
+      id: 985,
     },
   ]);
   return (
